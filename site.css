@@ -1,0 +1,379 @@
+/* CSS Document */
+
+body {
+	padding:0;
+	margin-left:0;
+	margin-right:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:18px;
+}
+
+
+.clearFloats {
+	clear:both;
+}
+
+#headerTop { 
+	width:100%; 
+	height:100px;
+	margin-top:39px;
+	background:url(JPG/repeat_header.jpg) repeat-x;
+	z-index:0;
+	
+}
+
+#containerCSSFlash {
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#flashContainer {
+	width:800px;
+	height:147px;
+	margin-left:auto;
+	margin-right:auto;
+	position:absolute;
+	z-index:1;
+	left: auto;
+	right:auto;
+	top: 16px;
+	*top:31px;
+	/*background:url(JPG/repeat_header.jpg) repeat-x;*/
+	}
+	
+#mainBox {
+	margin-top:35px;
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#leftColumn {
+	width:469px;
+	margin-right:10px;
+	float:left;
+}
+
+	.headerLeftColumn {
+		margin-top:15px;
+		
+	}
+	
+	.autoPortret {
+		width:445px;
+		/*height:161px;*/
+		margin-top:26px;
+		padding-left:26px;
+		margin-bottom:35px;
+	}
+	
+	.autoPortret img {
+		float:left;
+		margin-right:10px;
+		margin-bottom:10px;
+	}
+	
+	.headerOferte {
+		margin-top:30px;
+	}
+	
+	.headerOferte img {
+		padding-left:20px;
+	}
+	
+	.containerProiect {
+		
+		width:445px;
+		margin-top:11px;
+	}
+	
+	.containerProiect img {
+		float:left;
+		padding-left:26px;
+		margin-right:10px;
+		/*margin-bottom:5px;*/
+	}
+	
+	.containerProiect p {
+		padding-left:35px;
+		margin-right:10px;
+	}
+	
+	/*.containerProiect hr {
+		color:#0066CC;
+		background-color:#0066CC;
+	}*/
+	
+	.headerAlteServicii {
+		margin-top:20px;
+		margin-left:20px;
+	}
+	
+	.containerAlteServicii {
+		width:449px;
+		margin-left:20px;
+	}
+	
+	.containerAlteServicii img {
+		margin-top:15px;
+		float:left;
+		margin-right:15px;
+		margin-bottom:10px;
+	}
+	
+	p.endLeftColumn {
+		padding-bottom:50px;
+	}
+	
+	
+
+
+
+
+#rightColumn {
+	width:306px;
+	margin-left:10px;
+	float:left;
+}
+
+	.headerRightColumn {
+		margin-top:15px;
+		margin-bottom:33px;
+	}
+	
+	
+	.titluProiect {
+		float:left;
+		margin-top:20px;
+		margin-bottom:11px;
+	}
+		
+		
+	.picProject {
+		margin-left:18px;
+	}
+		
+		.picProject img {
+			float:left;
+			margin-right:11px;
+			margin-bottom:5px;
+			
+		}
+		
+	.meniuAccesareProiecte {
+		margin-left:18px;
+	}
+	
+		.meniuAccesareProiecte img {
+			float:left;
+			margin-right:8px;
+		}
+		
+		.maiMulteDetalii a {
+			float:left;
+			margin-right:23px;
+		}
+		
+		.baraLink img {
+			float:left;
+			margin-right:21px;
+		}
+		
+		.pozaLupaProiecte img {
+			float:left;
+			margin-right:10px;
+		}
+		
+		.veziToateProiectele a {
+			float:left;
+		}
+		
+		.arrowLink {
+			margin-top:28px;
+			margin-left:18px;
+			border-bottom:1px solid black;
+		}
+		
+		.arrowLink a {
+			margin-bottom:15px;
+		}
+		
+	
+	.picConsultanta {
+		margin-top:20px;
+	}
+	
+
+	
+	.completatiFormularul {
+		margin-left:18px;
+		
+		
+	}
+	
+		.completatiFormularul img {
+			float:left;
+			margin-bottom:35px;
+		}
+		
+	
+	.footerLine {
+		width:100%;
+		border-top:2px solid #6699cc;
+	}
+	
+	#footerBackground {
+		width:100%;
+		background-color:#333333;
+		height:240px !important;
+		height:100%;
+	}
+	
+	#containerFooterContent {
+		width:800px;
+		margin-left:auto;
+		margin-right:auto;
+		/*background-color:#333333;*/
+	}
+	
+	#containerNewsletter {
+		width:469px;
+		float:left;
+		margin-right:20px;
+		/*background-color:#333333;*/
+	}
+	
+	p.whiteText {
+		color:#FFFFFF;
+	}
+	
+	#containerContact {
+		float:left;
+		width:200px;
+		padding-bottom:0 !important;
+		padding-bottom:25px;
+	}
+	
+	#footerBottom {
+		width:100%;
+		height:100%;
+		background-color:#666666;
+		padding-bottom:10px;
+	}
+	
+	#textFooter {
+		width:800px;
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+		padding-top:10px;
+		padding-bottom:10px;
+		margin-bottom:-20px !important;
+		margin-bottom:0;
+	}
+	
+	.whiteLinks {
+		color:#fff;
+	}
+	
+	
+	/*css pagina despre noi*/
+	
+	.names {
+		font-size:14px;
+		color:#333333;
+	}
+	
+	.underConstruction {
+		width:445px;
+		font-size:14px;
+		color:#333333;
+		padding-left:25px;
+	}
+	
+	
+	ul.listaServicii {list-style-image:url(JPG/Bullets/bullet_list_servicii.jpg);}
+	
+	hr.hrServicii {
+		color:#006699;
+		background-color:#006699
+	}
+	
+	hr.hrServiciiLast {
+		margin-bottom:30px;
+		color: #FFFFFF;
+		background-color: #FFFFFF;
+	}
+	
+	.containerProiectServicii {
+		width:445px;
+		margin-top:11px;
+	}
+	
+	.containerProiectServicii img {
+		padding-left:26px;
+		margin-right:10px;
+		}
+		
+	.containerProiectPortofoliu {
+		width:445px;
+		margin-top:11px;
+	}
+	
+	.containerProiectPortofoliu img {
+		
+		margin-right:10px;
+	}
+	
+	.headerOfertePortofoliu {
+		margin-top:30px;
+	}
+	
+	ul.linkPortofoliu {
+	list-style-image:url(JPG/Arrows/arrow_names_dn.jpg)
+	}
+	
+	hr.hrPortofoliu {
+		color:#996699;
+		background-color:#996699;
+	}
+	
+	.containerProiectPortofoliuBottom {
+		width:445px;
+		margin-top:11px;
+		margin-bottom:50px;
+	}
+	
+	.containerProiectPortofoliuBottom img {
+		margin-right:10px;
+	}
+	
+	.navigarePagini {
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+	
+	hr.greenHR {
+		color:#66cc33;
+		background-color:#66cc33;
+	}
+
+	span {
+		color:red;
+	}
+	
+		.green {
+			color: #009900;
+		}
+		
+		
+	.containerMozilla {
+		width:800px; 
+		text-align:center; 
+		padding-top:25px; 
+		padding-bottom:25px; 
+		margin-left:auto; 
+		margin-right:auto;
+	}
